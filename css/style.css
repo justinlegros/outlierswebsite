@@ -26,14 +26,14 @@ html, body{
 	text-align: center;
 	width: 100%;
 	position: fixed;
-	height: 50px;
+	height: 1px;
 	top: 0;
 	z-index: 99;
 	top: 10px;
 }
 
-#header img{
-	width: 100px;
+#header video{
+	height: 100px;
 }
 
 #menu {
@@ -70,7 +70,7 @@ html, body{
 
 .s1 {
 	background: url('../images/IMG_4167-3.jpg');
-	background-color: #34d43c;
+	background-color: #000000;
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -80,7 +80,7 @@ html, body{
 
 .s2{
 	background: url('../images/IMG_4895-min.jpg');
-	background-color: #4652ff;
+	background-color: #000000;
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -244,12 +244,69 @@ html, body{
 
 .top {
 	background: url('../images/CloudPage.jpg');
-	background-color: #64f878;
+	background-color: #000000;
 	background-position: 50%;
 	background-size: cover;
+	background-repeat: repeat;
+	overflow: scroll;
 	height: 100%;
 	width: 100%;
+}
+
+#cloud-header{
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	height: 50px;
+	top: 0;
+	z-index: 99;
+	top: 10px;
+}
+
+#cloud-header img {
+	width: 100px;
+}
+
+
+#cloud-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	margin: 0;
+	padding-top: 100px;
+	padding-bottom: 0px;
+}
+
+#cloud-list img{
+	width: 300px;
+	padding: 10px 10px 10px 10px;
 	
+}
+
+@media (max-width: 750px){
+	#cloud-list {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	#cloud-list img{
+		width: 200px;
+		padding: 0 50px;
+	}
+}
+
+.top-allegro {
+	background: url('../images/CloudPage.jpg');
+	background-color: #000000;
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: repeat;
+	overflow: scroll;
+	height: 100%;
+	width: 100%;
 }
 /*
 .print:last-child {
