@@ -26,14 +26,14 @@ html, body{
 	text-align: center;
 	width: 100%;
 	position: fixed;
-	height: 1px;
+	height: 50px;
 	top: 0;
 	z-index: 99;
 	top: 10px;
 }
 
-#header video{
-	height: 100px;
+#header img{
+	width: 100px;
 }
 
 #menu {
