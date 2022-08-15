@@ -267,6 +267,20 @@ html, body{
 	width: 100px;
 }
 
+#allegro-header{
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	height: 80px;
+	top: 0;
+	z-index: 99;
+	top: 10px;
+}
+
+#allegro-header img {
+	width: 150px;
+}
+
 
 #cloud-list {
 	display: flex;
